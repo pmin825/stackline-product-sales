@@ -1,0 +1,118 @@
+.product-info-container {
+  height: 100vh;
+  width: 250px;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.product-subtitle {
+  font-size: 10px;
+  padding: 2px;
+  width: 70%;
+  color: #969696;
+}
+
+.tags {
+  padding: 10px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags p {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  font-size: 10px;
+  margin: 5px;
+}
+
+.product-info img {
+  height: 100px;
+  width: 100px;
+}
+
+.sales-info-container {
+  height: 100vh;
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  margin: 10px;
+  overflow: scroll;
+}
+
+.sales-info-container p {
+  font-weight: 700;
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+  color: #3a3b3c;
+  padding: 5px;
+}
+
+.stat {
+  list-style-type: none;
+  color: #969696;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  text-align: right;
+}
+
+.index-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.weekly-sales {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-bottom: 3px solid #ddd;
+  width: 100%;
+}
+
+.weekly-sales td,
+.weekly-sales th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  color: #969696;
+  font-size: 10px;
+}
+
+.weekly-sales tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.weekly-sales tr:hover {
+  background-color: #ddd;
+}
+
+.weekly-sales th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.719);
+}
